@@ -191,7 +191,7 @@ body{
     color: greenyellow;
 }
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
     body{
         margin-left: 5px;
     }
@@ -206,5 +206,43 @@ body{
     }
     #hwb-img, #cr-img, #rai-img{
         width: 300px;
+    }
+} */
+
+
+@media only screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+
+    body {
+        margin-left: 5px; /* Adjust body margin */
+    }
+
+    .container {
+        width: 90%; /* Adjust container width */
+    }
+
+    #projects-heading {
+        font-size: 40px; /* Adjust project heading font size */
+    }
+
+    .pj-container {
+        width: 90%; /* Adjust project container width */
+        left: 0; /* Reset left position */
+        padding-left: 20px; /* Adjust project container padding */
+        padding-right: 20px; /* Adjust project container padding */
+    }
+
+    .pj-text, #hwb-footer, #cr-footer, #rai-footer {
+        font-size: 16px; /* Adjust project text font size */
+    }
+
+    #hwb-img, #cr-img, #rai-img {
+        width: 90%; /* Adjust project image width */
+        border-radius: 20px; /* Adjust project image border radius */
+    }
+
+    #bottom-bar {
+        right: 10px; /* Adjust bottom bar right position */
+        font-size: 16px; /* Adjust bottom bar font size */
     }
 }
